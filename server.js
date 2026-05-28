@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
             res.end('Mottatt');
         });
     }
-    // 3. AUTOMATISK FILSERVER (Henter styles.css, script.js og bilder fra kilder-mappen)
+    // 3. Håndterer forespørsler for CSS, JS og bilder
     else if (req.method === 'GET') {
         const filePath = path.join(__dirname, req.url);
         
