@@ -1,0 +1,28 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto; 
+}
+.sverd {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: red;
+}
